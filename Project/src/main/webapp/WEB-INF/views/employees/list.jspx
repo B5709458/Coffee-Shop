@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_coffeeshop_domain_Employee" items="${employees}" z="n4QrCkSDjjm4MbppKUOWfpLr8GE=">
+        <table:table data="${employees}" id="l_com_springsource_roo_coffeeshop_domain_Employee" path="/employees" z="ggJ80XTEJ+9R7axjHFlLbeqjMGU=">
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeID" property="employeeID" z="UMwqkF2ItiIjmAv1+AuOX94CEF8="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeFirstName" property="employeeFirstName" z="Ej06dLEmxUflsjx2dHx9+fJWa8Y="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeLastName" property="employeeLastName" z="VZW3RNCP0jfXasdwoXvpy66Dt1E="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeePhoneNumber" property="employeePhoneNumber" z="6CBAqf82tkHkKCMY0W9RhYQye5c="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeSalary" property="employeeSalary" z="SBpFznouuP96FhPYSHk99fJy8PY="/>
+        </table:table>
+    </page:list>
+</div>
