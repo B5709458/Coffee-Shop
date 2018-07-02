@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_coffeeshop_domain_Menu" object="${menu}" path="/menus" z="O9na4nXOhluhmxGIMNRx2pcBbT4=">
+        <field:display field="drinkID" id="s_com_springsource_roo_coffeeshop_domain_Menu_DrinkID" object="${menu}" z="T/MRwd58Bl4gAaaUxjgf0CoD7Io="/>
+        <field:display field="drinkName" id="s_com_springsource_roo_coffeeshop_domain_Menu_DrinkName" object="${menu}" z="TNb0EI3mn/gU8HV94MwirU+tUv4="/>
+        <field:display field="drinkSize" id="s_com_springsource_roo_coffeeshop_domain_Menu_DrinkSize" object="${menu}" z="2qDfIJOBJPYbYYljlK6iiU21f5U="/>
+        <field:display field="drinkPrice" id="s_com_springsource_roo_coffeeshop_domain_Menu_DrinkPrice" object="${menu}" z="IEVM+RCcDxJcRSUyuGP6E5U8RlI="/>
+    </page:show>
+</div>

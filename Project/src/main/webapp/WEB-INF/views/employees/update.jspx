@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_coffeeshop_domain_Employee" modelAttribute="employee" path="/employees" versionField="Version" z="uBkaYJln3mSTI6wcIMTwNlG8VR4=">
+        <field:input field="EmployeeID" id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeID" min="2" required="true" z="vPBu+fKbJC5Vgsr/5S3pDabUXQE="/>
+        <field:input field="EmployeeFirstName" id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeFirstName" min="2" required="true" z="MyWYIYL+7LShe25fWqawSPqVcOk="/>
+        <field:input field="EmployeeLastName" id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeLastName" min="2" required="true" z="nRoEwC0k7LcHS1KP8QS4L7rH+IQ="/>
+        <field:input field="EmployeePhoneNumber" id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeePhoneNumber" min="2" required="true" z="KNs2oUK7nmcF9rJlFP8JJ2d8SKE="/>
+        <field:input field="EmployeeSalary" id="c_com_springsource_roo_coffeeshop_domain_Employee_EmployeeSalary" required="true" validationMessageCode="field_invalid_integer" z="3gaAXZXEAVGswtS30Cp8yXj4+as="/>
+    </form:update>
+</div>

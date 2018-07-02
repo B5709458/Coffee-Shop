@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_coffeeshop_domain_Manager" object="${manager}" path="/managers" z="tXABauDu6+Sc4w4mrgM6EBj5Hq4=">
+        <field:display field="managerID" id="s_com_springsource_roo_coffeeshop_domain_Manager_ManagerID" object="${manager}" z="z5qG4vZaWE2ShNHpCLbYdU8EQ8Q="/>
+        <field:display field="managerFirstName" id="s_com_springsource_roo_coffeeshop_domain_Manager_ManagerFirstName" object="${manager}" z="p6gqBtd8DyJjb/XTk6srJGjwKvU="/>
+        <field:display field="managerLastName" id="s_com_springsource_roo_coffeeshop_domain_Manager_ManagerLastName" object="${manager}" z="vxsM8Lwt0CeYfqJFo+XCTbAL5ng="/>
+        <field:display field="managerPhoneNumber" id="s_com_springsource_roo_coffeeshop_domain_Manager_ManagerPhoneNumber" object="${manager}" z="ahNdectViiku6O6034IBd4L5hww="/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_springsource_roo_coffeeshop_domain_Orders" modelAttribute="orders" path="/orderses" render="${empty dependencies}" z="vTxmUFLMJQ+6rdfrmEMZhkr2VyA=">
+        <field:input field="OrderID" id="c_com_springsource_roo_coffeeshop_domain_Orders_OrderID" min="2" required="true" z="mcr4N2jFZQzUnjJjBQ/5g1PDchg="/>
+        <field:datetime dateTimePattern="${orders_dates_date_format}" field="Dates" id="c_com_springsource_roo_coffeeshop_domain_Orders_Dates" z="2ayk+sOy+zAJaPxy8VuElA5k3g4="/>
+        <field:input field="Times" id="c_com_springsource_roo_coffeeshop_domain_Orders_Times" required="true" z="Ad2rhx6zTjeIFApLtL2dnbNIkDM="/>
+        <field:checkbox field="Status" id="c_com_springsource_roo_coffeeshop_domain_Orders_Status" z="/RiXlr+ye1d+EVo0XyMlNGluc/A="/>
+        <field:select field="Employee" id="c_com_springsource_roo_coffeeshop_domain_Orders_Employee" itemValue="id" items="${employees}" path="/employees" z="d0vti+qfrd6e6YKVE+eWeT0xpLI="/>
+        <field:select field="Customer" id="c_com_springsource_roo_coffeeshop_domain_Orders_Customer" itemValue="id" items="${customers}" path="/customers" z="Oby4qpq07A9ir/Ws4hcZbZIC6W8="/>
+        <field:select field="Drink" id="c_com_springsource_roo_coffeeshop_domain_Orders_Drink" itemValue="id" items="${menus}" path="/menus" z="PDZ5xWwgUMFM7kOudAJjaRFPbj4="/>
+        <field:input field="TotalPrice" id="c_com_springsource_roo_coffeeshop_domain_Orders_TotalPrice" validationMessageCode="field_invalid_number" z="5v7bjqFRO6QAb+pALnnQYhst8N8="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_springsource_roo_coffeeshop_domain_Orders" render="${not empty dependencies}" z="9AhOfzVSRUW5+UH9gmcg2QMuXJc="/>
+</div>
