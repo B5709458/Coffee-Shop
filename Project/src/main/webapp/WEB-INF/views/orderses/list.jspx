@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_coffeeshop_domain_Orders" items="${orderses}" z="o8x6QtMTuY9SqSyaEXOx5ptpRKs=">
+        <table:table data="${orderses}" id="l_com_springsource_roo_coffeeshop_domain_Orders" path="/orderses" z="yDPVqrcqvVDBR+qxx/Y/R14ddJg=">
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Orders_OrdersID" property="ordersID" z="R2cQnI3n2CfW9HF9/u99ANssXsw="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Orders_Customer" property="customer" z="RzrQ+xH2ucgP3xuBX2448HLNrhI="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Orders_Employee" property="employee" z="AMySQbsQ/zRDVmguAYqjU7z6ayk="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Orders_DrinkMenu" property="drinkMenu" z="AyMj6nhhdqiH4fwjLCoMgB4bzIk="/>
+            <table:column date="true" dateTimePattern="${orders_dates_date_format}" id="c_com_springsource_roo_coffeeshop_domain_Orders_Dates" property="dates" z="aaSUfJZ0Bd/SraUc+lVscpgS3Ek="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Orders_Times" property="times" z="2fqV12I26GPZgMolMOmgYrGVlNM="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_coffeeshop_domain_Receipt" modelAttribute="receipt" path="/receipts" versionField="Version" z="/VkNIgL4lJUkzLHDzX2a1F43Uys=">
+        <field:input field="ReceiptID" id="c_com_springsource_roo_coffeeshop_domain_Receipt_ReceiptID" min="2" required="true" z="yp6+RXnNYmbczyMVaaQO76dHKzg="/>
+        <field:select field="Orders" id="c_com_springsource_roo_coffeeshop_domain_Receipt_Orders" itemValue="id" items="${orderses}" path="/orderses" z="TVmOhHq6ftHfzMqxlcKv2iNhbAM="/>
+        <field:datetime dateTimePattern="${receipt_dates_date_format}" field="Dates" id="c_com_springsource_roo_coffeeshop_domain_Receipt_Dates" z="aYwHFe914fBzC19fXfmiuy7wKwQ="/>
+        <field:input field="Times" id="c_com_springsource_roo_coffeeshop_domain_Receipt_Times" required="true" z="tJkIlioy3P1cr/Htbe+KQ7gxokU="/>
+        <field:select field="Employee" id="c_com_springsource_roo_coffeeshop_domain_Receipt_Employee" itemValue="id" items="${employees}" path="/employees" z="olIf+TYWJx1HqY8fVLI0tvzA+8U="/>
+        <field:checkbox field="Status" id="c_com_springsource_roo_coffeeshop_domain_Receipt_Status" z="h41W3eyvEzoaim/wSnIpBBuKtk8="/>
+    </form:update>
+</div>

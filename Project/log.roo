@@ -1,0 +1,46 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2561-07-20 03:13:29
+project --topLevelPackage com.springsource.roo.CoffeeShop
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~.domain.Manager --testAutomatically
+field string --fieldName ManagerID --notNull --sizeMin 2
+field string --fieldName ManagerFirstName --notNull --sizeMin 2
+field string --fieldName ManagerLastName --notNull --sizeMin 2
+field string --fieldName ManagerPhone --notNull --sizeMin 2
+entity jpa --class ~.domain.Customer --testAutomatically
+field string --fieldName CustomerID --notNull --sizeMin 2
+field string --fieldName CustomerFirstName --notNull --sizeMin 2
+field string --fieldName CustomerLastName --notNull --sizeMin 2
+field string --fieldName CustomerPhone --notNull --sizeMin 2
+entity jpa --class ~.domain.Employee --testAutomatically
+field string --fieldName EmployeeID --notNull --sizeMin 2
+field string --fieldName EmployeeFirstName --notNull --sizeMin 2
+field string --fieldName EmployeeLastName --notNull --sizeMin 2
+field string --fieldName EmployeePhone --notNull --sizeMin 2
+field number --fieldName Salary --type java.lang.Float
+field reference --fieldName ManagerEdit --type ~.domain.Manager
+entity jpa --class ~.domain.Menu --testAutomatically
+field string --fieldName DrinkID --notNull --sizeMin 2
+field string --fieldName DrinkName --notNull --sizeMin 2
+field string --fieldName Sizes --notNull
+field number --fieldName Price --type java.lang.Float
+field reference --fieldName ManagerEdit --type ~.domain.Manager
+entity jpa --class ~.domain.Orders --testAutomatically
+field string --fieldName OrdersID --notNull --sizeMin 2
+field reference --fieldName Customer --type ~.domain.Customer
+field reference --fieldName Employee --type ~.domain.Employee
+field list --fieldName DrinkMenu --type ~.domain.Menu
+field date --fieldName Dates --type java.util.Date
+field string --fieldName Times --notNull
+field number --fieldName TotalPrice --type java.lang.Float
+entity jpa --class ~.domain.Receipt --testAutomatically 
+field string --fieldName ReceiptID --notNull --sizeMin 2
+field reference --fieldName Orders --type ~.domain.Orders
+field date --fieldName Dates --type java.util.Date
+field string --fieldName Times --notNull
+field reference --fieldName Employee --type ~.domain.Employee
+field boolean --fieldName Status 
+web mvc setup
+web mvc all --package ~.web
+security setup
+exit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2561-07-20 03:34:01

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_coffeeshop_domain_Receipt" items="${receipts}" z="AKvUTFFKDmspZnXF7DtHVK0PWRQ=">
+        <table:table data="${receipts}" id="l_com_springsource_roo_coffeeshop_domain_Receipt" path="/receipts" z="xO/qzL5MG5w9E3wNKYVf18n+LT0=">
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Receipt_ReceiptID" property="receiptID" z="lf4SWpK9P7tnvgUH6MxdoUMUKOI="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Receipt_Orders" property="orders" z="4vt6ImaNmTjALP7ERGCuHtSxGnk="/>
+            <table:column date="true" dateTimePattern="${receipt_dates_date_format}" id="c_com_springsource_roo_coffeeshop_domain_Receipt_Dates" property="dates" z="CNXrOMOomEXfscxgas4ALY65HGs="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Receipt_Times" property="times" z="AhMFnmfXojsezxAukAVMgpFC4ck="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Receipt_Employee" property="employee" z="mfO/249MeyBV2+/kF1Jo1nrKzCE="/>
+            <table:column id="c_com_springsource_roo_coffeeshop_domain_Receipt_Status" property="status" z="H2D6W8CMldMO0uBvoJzpc5Geodg="/>
+        </table:table>
+    </page:list>
+</div>
