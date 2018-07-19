@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_coffeeshop_domain_Orders" object="${orders}" path="/orderses" z="X0XiUCTZAdwmr52Ylb0crr7Anpw=">
+        <field:display field="ordersID" id="s_com_springsource_roo_coffeeshop_domain_Orders_OrdersID" object="${orders}" z="ioSoERKQVozlBQletBAXD0XFGAc="/>
+        <field:display field="customer" id="s_com_springsource_roo_coffeeshop_domain_Orders_Customer" object="${orders}" z="FcL7oBl8TqMmTzeRdoCjERE1+9M="/>
+        <field:display field="employee" id="s_com_springsource_roo_coffeeshop_domain_Orders_Employee" object="${orders}" z="GSbRc/GtV4K18CLVL5Roj6xLdBA="/>
+        <field:display field="drinkMenu" id="s_com_springsource_roo_coffeeshop_domain_Orders_DrinkMenu" object="${orders}" z="3haLwl7PiEdFmBNhW9XRXJ+oKLM="/>
+        <field:display date="true" dateTimePattern="${orders_dates_date_format}" field="dates" id="s_com_springsource_roo_coffeeshop_domain_Orders_Dates" object="${orders}" z="84HbIplLRP1beYAXHTmz81vfRYM="/>
+        <field:display field="times" id="s_com_springsource_roo_coffeeshop_domain_Orders_Times" object="${orders}" z="hEdeNMtR4hM7JGdtTySBlpgfOu4="/>
+        <field:display field="totalPrice" id="s_com_springsource_roo_coffeeshop_domain_Orders_TotalPrice" object="${orders}" z="bgFwghClLF4ksFH7m0dOeho/RY0="/>
+    </page:show>
+</div>

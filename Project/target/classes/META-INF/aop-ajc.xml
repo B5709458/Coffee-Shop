@@ -1,0 +1,42 @@
+<aspectj>
+<aspects>
+<aspect name="com.springsource.roo.coffeeshop.domain.Orders_Roo_ToString"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Receipt_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Orders_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.coffeeshop.web.CustomerController_Roo_Controller"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Receipt_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Employee_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Receipt_Roo_ToString"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Orders_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Menu_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Manager_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Employee_Roo_ToString"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Employee_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Customer_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.coffeeshop.web.ManagerController_Roo_Controller"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Menu_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Manager_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.coffeeshop.web.ReceiptController_Roo_Controller"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Customer_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Manager_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Customer_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Manager_Roo_ToString"/>
+<aspect name="com.springsource.roo.coffeeshop.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.springsource.roo.coffeeshop.web.EmployeeController_Roo_Controller"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Manager_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Menu_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Receipt_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Employee_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Menu_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Menu_Roo_ToString"/>
+<aspect name="com.springsource.roo.coffeeshop.web.MenuController_Roo_Controller"/>
+<aspect name="com.springsource.roo.coffeeshop.web.OrdersController_Roo_Controller"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Orders_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Customer_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Orders_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Receipt_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Employee_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.Customer_Roo_ToString"/>
+</aspects>
+</aspectj>
+

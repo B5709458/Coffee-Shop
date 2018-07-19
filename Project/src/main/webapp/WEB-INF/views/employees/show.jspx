@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_coffeeshop_domain_Employee" object="${employee}" path="/employees" z="xAQxiscr5wRC1Vj8tfdDUSCxJ+4=">
+        <field:display field="employeeID" id="s_com_springsource_roo_coffeeshop_domain_Employee_EmployeeID" object="${employee}" z="nlhvPm90uWXQh83199YC7PQzGe4="/>
+        <field:display field="employeeFirstName" id="s_com_springsource_roo_coffeeshop_domain_Employee_EmployeeFirstName" object="${employee}" z="IyLW0O7tVM8Jx3sODYVrcyJWy68="/>
+        <field:display field="employeeLastName" id="s_com_springsource_roo_coffeeshop_domain_Employee_EmployeeLastName" object="${employee}" z="wg+gATy4wl9VE6IE/5fGMvyXajs="/>
+        <field:display field="employeePhone" id="s_com_springsource_roo_coffeeshop_domain_Employee_EmployeePhone" object="${employee}" z="yBrzi1UXnHLEBAIBTbtxhfXkngY="/>
+        <field:display field="salary" id="s_com_springsource_roo_coffeeshop_domain_Employee_Salary" object="${employee}" z="OAy68XZlv3EGxjTCnODV7BA7viw="/>
+        <field:display field="managerEdit" id="s_com_springsource_roo_coffeeshop_domain_Employee_ManagerEdit" object="${employee}" z="zRHFUC7eDBl8nuPZUtzY3hAoyok="/>
+    </page:show>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_coffeeshop_domain_Menu" modelAttribute="menu" path="/menus" versionField="Version" z="50uUCoAsi68AgqqY1o+u+qqRHUA=">
+        <field:input field="DrinkID" id="c_com_springsource_roo_coffeeshop_domain_Menu_DrinkID" min="2" required="true" z="LszUIjdW3qCsXfLCB2KQgRCJIp0="/>
+        <field:input field="DrinkName" id="c_com_springsource_roo_coffeeshop_domain_Menu_DrinkName" min="2" required="true" z="c0b0E6xAEcpGPN0Oh+URi7CweKg="/>
+        <field:input field="Sizes" id="c_com_springsource_roo_coffeeshop_domain_Menu_Sizes" required="true" z="VENuutwlOjW+W1ACb4TXcKQbdUQ="/>
+        <field:input field="Price" id="c_com_springsource_roo_coffeeshop_domain_Menu_Price" validationMessageCode="field_invalid_number" z="SOkVFaaRTKOEAPCj84S31xRWpB4="/>
+        <field:select field="ManagerEdit" id="c_com_springsource_roo_coffeeshop_domain_Menu_ManagerEdit" itemValue="id" items="${managers}" path="/managers" z="0bE/k+BroO+QgPZt29E3GDfoE7g="/>
+    </form:update>
+</div>

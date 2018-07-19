@@ -1,0 +1,29 @@
+<aspectj>
+<aspects>
+<aspect name="com.springsource.roo.coffeeshop.domain.ManagerDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ManagerIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.MenuIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.CustomerIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.EmployeeIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.MenuDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.OrdersDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ReceiptDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.MenuIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ReceiptIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ReceiptDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.EmployeeDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.MenuDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.OrdersIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.OrdersDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.CustomerDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ManagerDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.OrdersIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.EmployeeDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.EmployeeIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.CustomerIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.CustomerDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ReceiptIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.coffeeshop.domain.ManagerIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+
