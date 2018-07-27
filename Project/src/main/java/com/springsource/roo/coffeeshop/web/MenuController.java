@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping("/menus")
 @Controller
-@RooWebScaffold(path = "menus", formBackingObject = Menu.class, delete = false, update = false)
+@RooWebScaffold(path = "menus", formBackingObject = Menu.class)
 public class MenuController {
 }
