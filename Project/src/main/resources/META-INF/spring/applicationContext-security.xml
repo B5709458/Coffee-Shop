@@ -9,20 +9,14 @@
         <form-login login-processing-url="/resources/j_spring_security_check" login-page="/login" authentication-failure-url="/login?login_error=t" />
         <logout logout-url="/resources/j_spring_security_logout" />
         <!-- Configure these elements to secure URIs in your application -->
-        <!--<intercept-url pattern="/choices/**" access="hasRole('ROLE_ADMIN')" />-->
+        <intercept-url pattern="/Manager/**" access="hasRole('ROLE_ADMIN')"/>
+   		<intercept-url pattern="/Employee/**" access="hasRole('ROLE_ADMIN')"/>
+   		<intercept-url pattern="/Menu/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/choices/**" access="hasRole('ROLE_ADMIN')" />
         <intercept-url pattern="/member/**" access="isAuthenticated()" />
         <intercept-url pattern="/resources/**" access="permitAll" />
         <intercept-url pattern="/login/**" access="permitAll" />
         <intercept-url pattern="/**" access="isAuthenticated()" />
-        <!------------------------------PAM Edit ----------------------------------->
-        <intercept-url pattern="/Menu/**" access="hasRole('ROLE_ADMIN')" />
-        <intercept-url pattern="/Employee/**" access="hasRole('ROLE_ADMIN')" />
-        <intercept-url pattern="/Manager/**" access="hasRole('ROLE_ADMIN')" /> 
-        <intercept-url pattern="/Orders/**" access="hasRole('ROLE_USER')" />
-        <intercept-url pattern="/Customer/**" access="hasRole('ROLE_USER')" />
-        <intercept-url pattern="/Receipt/**" access="hasRole('ROLE_USER')" /> 
-        <!------------------------------PAM Edit ----------------------------------->
-
     </http>
     <!-- Configure Authentication mechanism -->
     <authentication-manager alias="authenticationManager">

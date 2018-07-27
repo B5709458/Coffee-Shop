@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping("/receipts")
 @Controller
-@RooWebScaffold(path = "receipts", formBackingObject = Receipt.class, delete = false, update = false)
+@RooWebScaffold(path = "receipts", formBackingObject = Receipt.class)
 public class ReceiptController {
 }
